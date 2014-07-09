@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4981
+
+Errors like "E21: Cannot make changes, 'modifiable' is off" are annoying. That's why there is now BufDo to skip non-modifiable buffers.
+
+* Usage examples *
+
+:BufDo echo bufname("%")
+:BufDo %s/old/new/g
+
+* On the roadmap *
+
+Adding WinDo and TabDo.
+
+* GitHub *
+https://github.com/sergey-vlasov/JustDo.vim
